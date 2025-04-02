@@ -1,0 +1,27 @@
+{
+  "name": "tina-test-site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "TINA_PUBLIC_IS_LOCAL=true tinacms dev -c \"eleventy --serve --port $PORT\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@11ty/eleventy": "^3.0.0",
+    "@tinacms/datalayer": "^1.3.14",
+    "@upstash/redis": "^1.34.6",
+    "tinacms": "^2.7.3",
+    "tinacms-authjs": "^10.0.3",
+    "tinacms-gitprovider-github": "^2.0.14",
+    "upstash-redis-level": "^1.1.1"
+  },
+  "devDependencies": {
+    "@tinacms/cli": "^1.9.3",
+    "@types/node": "^22.13.17"
+  }
+}
